@@ -13,6 +13,4 @@ index.html  file in your web browser.
 # Usage
 To create a new bookmark, enter a name and URL in the input fields and click the "Save" button. The bookmark will be added to the list of bookmarks.
 
-To view your bookmarks, click the "View Bookmarks" button. The bookmarks will be displayed in a table with columns for the name, URL, and actions.
-
 To delete a bookmark, click the "Delete" button next to the bookmark in the table.
