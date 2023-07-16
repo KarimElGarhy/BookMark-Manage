@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="bookmark.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sweetalert.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>BookMark</title>
+</head>
+<body>
+
+    <div class="container text-center py-5">
+        <h1 class="header-text">Bookmarker</h1>
+        <hr>
+        <div class="d-flex justify-content-center gap-3 align-items-center fs-4">
+            <i class="fa-solid fa-bookmark clr-dark-green"></i> <h3> Bookmark your favorite sites</h3> <i class="fa-solid fa-bookmark clr-light-green"></i>
+        </div>
+        <section class="text-start">
+            <label class="form-label" for="btnBookmarkName"><i class="fa-solid fa-book-bookmark pe-2"></i> Site Name</label>
+            <input name="bookmarkName" id="btnBookmarkName" placeholder="bookmark Name" class="form-control">
+            <label class="form-label mt-3" for="btnSiteUrl"><i class="fa-solid fa-link pe-2"></i> Website Url</label>
+            <input name="webSiteUrl" id="btnSiteUrl" placeholder="Website Url" class="form-control">
+            
+        </section>
+        <button class="mt-3 submitBtn btn bg-light-red text-white px-5" onclick="saveData()"> Submit</button>
+        <hr>
+
+
+
+        <table class="table text-center align-middle">
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Website Name</th>
+                    <th>Visit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+
+        
+
+    </div>
+
+    <script src="js/sweetalert.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
